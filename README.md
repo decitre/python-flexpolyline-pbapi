@@ -1,6 +1,8 @@
 ![workflow](https://github.com/decitre/python-flexpolyline-pbapi/actions/workflows/test.yml/badge.svg)
 
-# FlexPolyline and HERE Polyline
+# This project is deprecated. Please check [here-polyline-converter](https://github.com/heremaps/here-polyline-converter)
+
+## FlexPolyline and HERE Polyline
 
 This is Python extension of the [Flexible Polyline](https://github.com/heremaps/flexible-polyline) 
 codec library to support the HERE polyline format used by 
@@ -11,7 +13,7 @@ Note that the HERE Places (Search) API is in maintenance. This Python package ca
 the newer [HERE Geocoding & Search API](https://developer.here.com/documentation/geocoding-search-api/dev_guide/index.html).
 
 
-## Install
+### Install
 
 ```shell
 $ pip install python-flexpolyline-pbapi
@@ -48,7 +50,7 @@ Decodes a HERE polyline string into an array of coordinates `(lat, lng[, width])
 
 Note that `width` is expected to be one of `DW`, `HW`, `CW`.
 
-#### Examples
+##### Examples
 
 ```python
 >>> import flexpolyline_pbapi as fp
@@ -76,7 +78,7 @@ python sdist bdist_wheel
 twine upload --skip-existing dist/*
 -->
 
-## License
+### License
 
 Copyright (C) 2019 HERE Europe B.V.
 
